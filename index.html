@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/variables.css">
+    <link rel="stylesheet" href="./css/animations.css">
+    <link rel="shortcut icon" href="/imgs/favicon.png" type="image/x-icon">
+    <title>Jogo de naves</title>
+</head>
+
+<body>
+
+    <div id="container">
+
+        <div id="fundoGame">
+
+            <div id="inicio" onclick="start()">
+                <h1>Resgate</h1>
+                <p>Utilize a tecla W para movimentar o helicóptero para cima, a tecla S para movimentar o helicóptero para baixo, e a tecla D para atirar</p>
+                <p id="p2">Clique aqui para iniciar</p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <audio src="./sons/explosao.mp3" preload="auto" id="audioExplosao"></audio>
+    <audio src="./sons/gameover.mp3" preload="auto" id="audioGameOver"></audio>
+    <audio src="./sons/musica.mp3" preload="auto" id="audioMusica"></audio>
+    <audio src="./sons/musica_fundo.mp3" preload="auto" id="audioMusicaFundo"></audio>
+    <audio src="./sons/perdido.mp3" preload="auto" id="audioPerdido"></audio>
+    <audio src="./sons/resgate.mp3" preload="auto" id="audioResgate"></audio>
+    <audio src="./sons/som.mp3" preload="auto" id="audioDisparo"></audio>
+
+    <script src="./js/jquery-1.11.1.min.js"></script>
+    <script src="./js/index.js"></script>
+    <script src="./js/jquery-collision.min.js"></script>
+
+</body>
+
+</html>

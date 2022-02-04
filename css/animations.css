@@ -1,0 +1,46 @@
+@keyframes play {
+    from {
+        background-position: 0px;
+    }
+    to {
+        background-position: -512px;
+    }
+}
+
+@keyframes play2 {
+    from {
+        background-position: 0px;
+    }
+    to {
+        background-position: -528px;
+    }
+}
+
+@keyframes play3 {
+    from {
+        background-position: 0px;
+    }
+    to {
+        background-position: -308px;
+    }
+}
+
+.anima1 {
+    background-image: url(../imgs/apache.png);
+    animation: play .2s steps(2) infinite;
+}
+
+.anima2 {
+    background-image: url(../imgs/inimigo1.png);
+    animation: play .2s steps(2) infinite;
+}
+
+.anima3 {
+    background-image: url(../imgs/);
+    animation: play2 .9s steps(12) infinite;
+}
+
+.anima4 {
+    background-image: url(../imgs/amigo_morte.png);
+    animation: play3 .5s steps(7) infinite;
+}
